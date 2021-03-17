@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kaushan Script', cursive;
+}
+
+body{
+    background-color: #eeeeee;
+}
+
+.container{
+    width: 95%;
+    height: 100vh;
+    margin: auto;
+
+}
+
+h1{
+    text-align: center;
+}
+
+span:nth-child(1){
+    color: #252525;
+    font-size: 1.3em;
+    font-weight: 100;
+    padding-right: 10px;
+}
+
+span:nth-child(2){
+    color:#ef7998;
+    font-size: 2em;
+}
+
+.center{
+    text-align: center;
+}
+
+
+input[type=button]{
+    padding: 10px 15px 10px 15px;
+    margin: 0 15px 0 15px;
+    font-size: 0.9em;
+    font-weight: 100;
+    border: 1px #292929 solid;
+    outline: 0;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+input[type=button]:hover,
+.active{
+    background-color: #252525;
+    color:#ef7998;
+}
+
+.search{
+    margin-top: 30px;
+    width: 300px;
+    height: 40px;
+    border: 1px #afafaf solid;
+    outline: 0;
+    border-radius: 0 10px 10px 0;
+    font-size: 1.3em;
+}
+
+.search-button{
+    height: 40px;
+    width: 40px;
+    border: none;
+    background-color: #ef7998;
+    border-radius: 10px 0 0 10px;
+    margin-right: -4px;
+    outline: 0;
+    color: #fff;
+    position: relative;
+    top: -3px;
+}
+
+.fa{
+    font-size: 18px;
+}
+
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: auto;
+}
+
+.card{
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+    margin: 50px auto 0 auto;
+}
+
+.img{
+    width: 300px;
+    height: 230px;
+    background-size: cover;
+}
+
+.card:nth-child(1) .img{
+    background-image: url(img/sweets-1.jpeg);
+}
+
+.card:nth-child(2) .img{
+    background-image: url(img/cupcake-1.jpeg);
+}
+
+.card:nth-child(3) .img{
+    background-image: url(img/cake-1.jpeg);
+}
+
+.card:nth-child(4) .img{
+    background-image: url(img/doughnut-1.jpeg);
+}
+
+.card:nth-child(5) .img{
+    background-image: url(img/sweets-2.jpeg);
+}
+
+.card:nth-child(6) .img{
+    background-image: url(img/cupcake-2.jpeg);
+}
+
+.card:nth-child(7) .img{
+    background-image: url(img/cake-2.jpeg);
+}
+
+.card:nth-child(8) .img{
+    background-image: url(img/doughnut-2.jpeg);
+}
+
+.card:nth-child(9) .img{
+    background-image: url(img/sweets-3.jpeg);
+}
+
+.card:nth-child(10) .img{
+    background-image: url(img/cupcake-3.jpeg);
+}
+
+.card:nth-child(11) .img{
+    background-image: url(img/cake-3.jpeg);
+}
+
+.card:nth-child(12) .img{
+    background-image: url(img/doughnut-3.jpeg);
+}
+
+.remove{
+    position: absolute;
+    visibility: hidden;
+}
+
+.details p, h4{
+    position: relative;
+    font-size: 1.2em;
+}
+
+.details h4{
+    top: 20px;
+    left: 10px;
+    font-weight: 100;
+}
+
+.details p:nth-child(2){
+    top: -7px;
+    right: 10px;
+    float: right;
+}
+
+
