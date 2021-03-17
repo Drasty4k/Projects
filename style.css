@@ -15,9 +15,7 @@ body{
     background-color: #9bcfff;
 }
 
-#one, #two, #three,
-#four, #five, #six,
-#seven{
+.box{
     margin: 50px auto 0 auto;
     height: 100px;
     width: 300px;
@@ -27,9 +25,7 @@ body{
     border-radius: 12px;
 }
 
-#one:hover, #two:hover, #three:hover,
-#four:hover, #five:hover, #six:hover,
-#seven:hover{
+.box:hover{
     background-color: #6140da;
 }
 
