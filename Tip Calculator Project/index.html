@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <h1>Tip Calculator</h1>
+            <div class="inputs">
+                <p>How Much Was Your Bill?</p>
+                <input type="number" name="" id="bill">
+                <p>How Many People Sharing The Bill?</p>
+                <input type="number" name="" id="sharing">
+            </div>
+
+            <div class="rating">
+                <p>How Was Your Service?</p>
+                <select name="rating" id="chooseRating">
+                    <option value="choose">Choose...</option>
+                    <option value="0.2">Great - 20%</option>
+                    <option value="0.1">Good - 10%</option>
+                    <option value="0.02">Bad - 2%</option>
+                </select>
+            </div>
+            <input type="button" value="Calculate" id="btn">
+            <div class="lds-roller">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="result">
+                <p id="result1"></p>
+                <p id="result2"></p>
+                <p id="result3"></p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
